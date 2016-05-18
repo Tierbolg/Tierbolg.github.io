@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Professional developer, passionate from technology and hungry mind
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Geek by nature, I love to solve challengues and push my limits
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[tierbolg@outlook.com](mailto:tierbolg@outlook.com)
