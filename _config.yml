@@ -3,7 +3,9 @@
 #
 
 # Name of your site (displayed in the header)
-name: Tierbolg
+title: Gilberto Velazquez
+name: Gilberto Velazquez Martinez
+twitter_username: tierbolg
 
 # Short bio or description (displayed in the header)
 description: Developer notes, and a world coming out for my crazy brain
@@ -11,10 +13,82 @@ description: Developer notes, and a world coming out for my crazy brain
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: Blog
+   url: http://automateddeveloper.blogspot.com/
+ - title: GitHub
+   url: https://github.com/tierbolg
+ - title: DZone
+   url: https://dzone.com/users/1420521/tierbolg.html
+
+#Any buzzword skills you want to include
+skills:
+ - Scrum Master
+ - Spring MVC/Boot/Security
+ - JAVA
+ - SQL
+ - API design
+ - REST
+ - .NET Core
+ - Mongo
+ - Microservices
+ - Reddis
+ - Docker
+ - Jenkins
+ - Project Management
+ - Technical Architecture
+ - Machine Learning
+
+#Work experience is required
+roles:
+ - title: Technical Leader
+   start: 2017-09
+   end: Ongoing
+   employer: HCL
+   description: Technical Leader in charge of deployments, new requeriments and automatization projects related with communications backends for Mexico and Latin America. Assigned directly with Nokia
+ - title: Senior Consulting
+   start: 2016-03
+   end: 2017-09
+   employer: Deloitte
+   description: Coordinator of projects in the area of ​​information technology, responsible for managing multidisciplinary work teams, budget management, quotations, propose solutions to the client that exceed their expectations with high standards of quality, architecture and security.
+ - title: Senior Developer
+   start: 2014-01
+   end: 2016-03
+   employer: Gemalto
+   description: Working as a senior developer, I worked closely with the Research and Development division, champion expertise in Mercurial, JAVA, Oracle, Weblogic, Spring & Bash scripts. Promoted from Mexico to Singapore, working directly with teams in Asia, Europe, Canada & Brazil
+ - title: Professional in technology
+   start: 2014-03
+   end: 2009-03
+   employer: Federal Institute of Elections (Mexican Government)
+   description: Working on a range of functional and technical roles, automate and control 150 linux servers (gentoo, debian, Oracle), manage IBM backup robot, configure and admin 450 Windows Servers using active directory. Man in charge of "acoustic fingerprint" an algorithm used for detect politian commercials in real time for radio and television
+
+#Education is required
+education:
+ - level: Electronic Engineer
+   date: 2010
+   subject: Use of a hybrid method for the identification of disturbed fingerprints with a high level of noise
+school: National Autonomous University of Mexico
+ - level: Master in Business Administration
+   date: 2011
+school: Intercontinental University
+
+
 #
 # Flags below are optional
 #
 #Optional
+
+#List of interesting Github repo/projects to include - optional
+github:
+- Tierbolg/Tierbolg.github.io
+
+intro: | 
+	I am an engineer with almost 10 years of experience working in technology. I have primarily worked  as a server admin, facing many problems related to database synchronization, data replica, manage of roles, permissions, concurrence witha pplications and security. My obsession for automate tasks and be more productive give me the chance to be in charge of projects related to working in real time, with thousands of clients around my country. After that, I have worked across a broad range of technologies thereon: Java, .NET, SQL, Javascript, Node, Mongo and most recently .NET Core and Spring. As well as spending a reasonable amount of time building applications for the web, which has given me an exposure to a range of javascript technologies over the years, through jQuery<br/><br/>
+  I enjoy building interesting products, with a good Product Management focus and a good emphasis on good engineering principles and clean code. I prefeer estructured methodologies like TDD, because give you more confident deliveries<br/><br/>
+  I have worked in large scale consultancy roles across Europe, Asia and Latin America, and the most satisfying thing has been to teach my team the technology, best practices and be disruptive, because Agile metodologies like Scrum if are planned are incredible powerful
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
@@ -23,7 +97,7 @@ footer-links:
   flickr:
   github: tierbolg.github.io
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/gilberto-vel%C3%A1zquez-mart%C3%ADnez-a599573a/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: tierbolg
