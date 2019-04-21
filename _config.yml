@@ -62,7 +62,7 @@ roles:
    start: 2009
    end: 2014-03
    employer: Federal Institute of Elections (Mexican Government)
-   description: Working on a range of functional and technical roles, automate and control 150 linux servers with several distributions like gentoo, debian and Oracle, manage IBM backup robot, configure and admin 450 Windows Servers using active directory. Man in charge of the acoustic fingerprint, an algorithm used for detect politian commercials in real time for radio and television
+   #description: Working on a range of functional and technical roles, automate and control 150 linux servers with several distributions like gentoo, debian and Oracle, manage IBM backup robot, configure and admin 450 Windows Servers using active directory. Man in charge of the acoustic fingerprint, an algorithm used for detect politian commercials in real time for radio and television
 
 #Education is required
 education:
@@ -76,7 +76,7 @@ github:
  - Tierbolg/Tierbolg.github.io
  - robhinds/ElasticSearchGradle
  - Tierbolg/ResourcesCalculator
- - Tierbolg/SpringMVCs
+ - Tierbolg/SpringMVC
 #Stackoverflow flair is optional
 #stackoverflow:
 #   profileurl: http://stackoverflow.com/users/258813/rhinds
