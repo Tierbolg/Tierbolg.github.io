@@ -1,5 +1,5 @@
 # Name of your site (displayed in the header)
-title: Gilberto Velazquez
+title: Gilberto Velazquez Martinez
 name: Gilberto Velazquez Martinez
 twitter_username: tierbolg
 
@@ -40,23 +40,27 @@ skills:
 #Work experience is required
 roles:
  - title: Technical Leader
-   start: 2017-09
+   #start: 2017-09
+   start: 2017
    end: Ongoing
    employer: HCL
    description: Technical Leader in charge of deployments, new requeriments and automatization projects related with communications backends for Mexico and Latin America. Assigned directly with Nokia
  - title: Senior Consulting
-   start: 2016-03
+   #start: 2016-03
+   start: 2016
    end: 2017-09
    employer: Deloitte
    description: Coordinator of projects in the area of ​​information technology, responsible for managing multidisciplinary work teams, budget management, quotations, propose solutions to the client that exceed their expectations with high standards of quality, architecture and security.
  - title: Senior Developer
-   start: 2014-01
+   #start: 2014-01
+   start: 2014
    end: 2016-03
    employer: Gemalto
    description: Working as a senior developer, I worked closely with the Research and Development division, champion expertise in Mercurial, JAVA, Oracle, Weblogic, Spring & Bash scripts. Promoted from Mexico to Singapore, working directly with teams in Asia, Europe, Canada & Brazil
  - title: Professional in technology
-   start: 2014-03
-   end: 2009-03
+   #start: 2014-03
+   start: 2009
+   end: 2014-03
    employer: Federal Institute of Elections (Mexican Government)
    description: Working on a range of functional and technical roles, automate and control 150 linux servers (gentoo, debian, Oracle), manage IBM backup robot, configure and admin 450 Windows Servers using active directory. Man in charge of "acoustic fingerprint" an algorithm used for detect politian commercials in real time for radio and television
 
@@ -84,7 +88,6 @@ intro: |
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>Scala</strong>: My current role uses Scala as the primary language and have been building applications in Scala for the last two years. I am familiar with a range of Scala libraries, such as <a target="_blank" href="http://automateddeveloper.blogspot.com/2017/12/an-opinionated-guide-to-building-apis.html"> Akka-Http for building microservices</a> and <a target="_blank" href="http://automateddeveloper.blogspot.com/2018/09/generic-programming-with-scala.html"> Shapeless for generic programming</a>, as well as familiar with a range of <a target="_blank" href="https://basementcrowd.com/2018/11/28/scala-the-aux-pattern-path-dependent-types/" >functional programming techniques available</a>.<br/><br/>
    <strong>Java</strong>: I am experienced in a variety of Java API’s and frameworks. I have worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others. <br/><br/>
    <strong>Groovy</strong> I have used Groovy as a language in production for ~4 years and I am familiar with many of the languages features (such as writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>) and quirks (such as <a target="_blank" href="https://dzone.com/articles/groovy-retrospective-an-addendum-memory-usage-perm">memory leak issues</a>). <br/><br/>
    <strong>Cloud platforms</strong>: I have primarily used AWS for running production apps on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3, Cogito, <a target="_blank" href="http://automateddeveloper.blogspot.com/2018/05/serverless-with-aws-lambda-scala.html">Lambda</a> and its more recent <a target="_blank" href="http://automateddeveloper.blogspot.com/2018/10/machine-learning-with-aws-scala.html">Machine Learning capabilities</a>.<br/><br/>
