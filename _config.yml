@@ -75,7 +75,8 @@ education:
 github:
  - Tierbolg/Tierbolg.github.io
  - robhinds/ElasticSearchGradle
-
+ - Tierbolg/ResourcesCalculator
+ - Tierbolg/SpringMVCs
 #Stackoverflow flair is optional
 #stackoverflow:
 #   profileurl: http://stackoverflow.com/users/258813/rhinds
