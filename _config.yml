@@ -1,17 +1,10 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Site settings
+title: Rob Hinds
+twitter_username: rob_hinds
+name: Rob Hinds
 
-# Name of your site (displayed in the header)
-title: Gilberto Velazquez
-name: Gilberto Velazquez Martinez
-twitter_username: tierbolg
-
-# Short bio or description (displayed in the header)
-description: I'm an electir
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+# Build settings
+markdown: kramdown
 
 #User specific content
 #Links that will appear in the navbar
@@ -19,143 +12,121 @@ primarylinks:
  - title: Blog
    url: http://automateddeveloper.blogspot.com/
  - title: GitHub
-   url: https://github.com/tierbolg
+   url: https://github.com/robhinds
+ - title: StackOverflow
+   url: http://stackoverflow.com/users/258813/rhinds
  - title: DZone
-   url: https://dzone.com/users/1420521/tierbolg.html
+   url: https://dzone.com/users/899489/rhinds.html
+ - title: LinkedIn
+   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
 
 #Any buzzword skills you want to include
 skills:
- - Scrum Master
- - Spring MVC/Boot/Security
- - JAVA
- - SQL
- - API design
- - REST
- - .NET Core
- - Mongo
+ - Scala
+ - Akka-http
  - Microservices
- - Reddis
- - Docker
- - Jenkins
- - Project Management
+ - Slick
+ - Product management
+ - API design
+ - Groovy
+ - Spring MVC/Boot/Social
+ - Gradle
+ - Java
+ - JPA
+ - SQL
+ - REST
  - Technical Architecture
- - Machine Learning
+ - Machine learning
+
+#Blogfeed is optional - including this will add JS to call the feed and populate blog list
+blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
 #Work experience is required
 roles:
- - title: Technical Leader
-   start: 2017-09
+ - title: CTO
+   start: 2017
    end: Ongoing
-   employer: HCL
-   description: Technical Leader in charge of deployments, new requeriments and automatization projects related with communications backends for Mexico and Latin America. Assigned directly with Nokia
- - title: Senior Consulting
-   start: 2016-03
-   end: 2017-09
-   employer: Deloitte
-   description: Coordinator of projects in the area of ​​information technology, responsible for managing multidisciplinary work teams, budget management, quotations, propose solutions to the client that exceed their expectations with high standards of quality, architecture and security.
- - title: Senior Developer
-   start: 2014-01
-   end: 2016-03
-   employer: Gemalto
-   description: Working as a senior developer, I worked closely with the Research and Development division, champion expertise in Mercurial, JAVA, Oracle, Weblogic, Spring & Bash scripts. Promoted from Mexico to Singapore, working directly with teams in Asia, Europe, Canada & Brazil
- - title: Professional in technology
-   start: 2014-03
-   end: 2009-03
-   employer: Federal Institute of Elections (Mexican Government)
-   description: Working on a range of functional and technical roles, automate and control 150 linux servers (gentoo, debian, Oracle), manage IBM backup robot, configure and admin 450 Windows Servers using active directory. Man in charge of "acoustic fingerprint" an algorithm used for detect politian commercials in real time for radio and television
+   employer: Basement Crowd
+   description: Legaltech startup producing a range of innovative legal products. Products include <a href="https://www.juriosity.com" taget="_blank">Juriosity</a>, <a href="https://www.fromcounsel.com" taget="_blank">FromCounsel</a>, <a href="https://www.sparqa.com" taget="_blank">Sparqa</a>.
+ - title: Senior Engineer
+   start: 2016
+   end: 2017
+   employer: Emerald Street Ventures
+   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
+ - title: Senior Engineer
+   start: 2012
+   end: 2016
+   employer: Covestor
+   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> Working as a senior engineer, I worked closely with the CTO and across the full-stack, I was involved in all aspects of the technology including the website and back-end services.
+ - title: Associate Manager
+   start: 2005
+   end: 2012
+   employer: Accenture
+   description: Working on a range of functional and technical roles, primarily working on client sites in Financial Services in London and Europe.
 
 #Education is required
 education:
- - level: Electronic Engineer
-   date: 2010
-   subject: Use of a hybrid method for the identification of disturbed fingerprints with a high level of noise
-   school: National Autonomous University of Mexico
- - level: Master in Business Administration
-   date: 2011
-   subject: 
-   school: Intercontinental University
+ - level: Bachelor of Science (B.Sc.)
+   date: 2003
+   subject: Artificial Intelligence and Computer Science
+   school: University of Birmingham
 
+#This section is optional (as is the image link below)
+coursera:
+   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+   courses:
+    - title: Functional Programming Principles in Scala
+      link: https://www.coursera.org/course/progfun
+      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+      date: September 16, 2013
+    - title: Algorithms Design and Analysis, Part 1
+      link: https://www.coursera.org/specializations/algorithms
+      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
+      date: April 28, 2014
 
-#
-# Flags below are optional
-#
-#Optional
+#This section is optional - embeds slideshows from speakerdeck
+# to get the speakerdeck ID copy the embed code and look for the data-it attribute
+speakerdeck:
+   profileurl: https://speakerdeck.com/robhinds
+   talks:
+    - title: Product Management for Engineers
+      speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
+      conference: API Conference, Berlin 2018
+    - title: Agile Machine Learning - from Theory to Production
+      speakerdeckId: ec84f2f56e9743afb0675b1eeeb6b6ce
+      conference: W-JAX Conference, Munich 2017 (London 2017)
 
 #List of interesting Github repo/projects to include - optional
 github:
-- Tierbolg/Tierbolg.github.io
+ - robhinds/robhinds.github.io
+ - robhinds/ScaLambda
+ - robhinds/opinionated-akka-http
+ - robhinds/food2vec
+ - robhinds/microservices
+ - robhinds/spring-social-geeklist
+ - robhinds/spring-social-stackoverflow
+ - robhinds/genotype
+ - robhinds/footweets
+ - robhinds/ElasticSearchGradle
+
+#Stackoverflow flair is optional
+stackoverflow:
+   profileurl: http://stackoverflow.com/users/258813/rhinds
+   flairimageurl: http://stackoverflow.com/users/flair/258813.png
 
 intro: |
-  I am an engineer with almost 10 years of experience working in technology. I have primarily worked  as a server admin, facing many problems related to database synchronization, data replica, manage of roles, permissions, concurrence witha pplications and security. My obsession for automate tasks and be more productive give me the chance to be in charge of projects related to working in real time, with thousands of clients around my country. After that, I have worked across a broad range of technologies thereon Java, .NET, SQL, Javascript, Node, Mongo and most recently .NET Core and Spring. As well as spending a reasonable amount of time building applications for the web, which has given me an exposure to a range of javascript technologies over the years, through jQuery.
-  I enjoy building interesting products, with a good Product Management focus and a good emphasis on good engineering principles and clean code. I prefeer estructured methodologies like TDD, because give you more confident deliveries
-  I have worked in large scale consultancy roles across Europe, Asia and Latin America, and the most satisfying thing has been to teach my team the technology, best practices and be disruptive, because Agile metodologies like Scrum if are planned are incredible powerful.
+  I am an engineer with 15 years experience working in technology. I have primarily worked on the JVM, but have worked across a broad range of technologies thereon: Java, Groovy, Android, Coldfusion and most recently Scala. As well as spending a reasonable amount of time building applications for the web, which has given me an exposure to a range of javascript technologies over the years, through jQuery, extjs, knockout, backbone and most recently to React. <br/><br/>
+  I enjoy building interesting products, with a good Product Management focus and a good emphasis on good engineering principles and clean code (having worked across differing languages on the JVM, I recognise that good code is contextual).<br/><br/>
+  I have worked in large scale consultancy roles across Europe as well as a mix of startup experience (including one that was acquired) and I am currently the Chief Technology Officer at a legal-tech startup called <a href="https://www.basementcrowd.com" target="_blank">Basement Crowd</a> where we are building innovative products to serve the legal industry.
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: tierbolg@outlook.com
-  facebook:
-  flickr:
-  github: tierbolg.github.io
-  instagram:
-  linkedin: https://www.linkedin.com/in/gilberto-vel%C3%A1zquez-mart%C3%ADnez-a599573a/
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: tierbolg
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://tierbolg.github.io/
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+   <strong>Scala</strong>: My current role uses Scala as the primary language and have been building applications in Scala for the last two years. I am familiar with a range of Scala libraries, such as <a target="_blank" href="http://automateddeveloper.blogspot.com/2017/12/an-opinionated-guide-to-building-apis.html"> Akka-Http for building microservices</a> and <a target="_blank" href="http://automateddeveloper.blogspot.com/2018/09/generic-programming-with-scala.html"> Shapeless for generic programming</a>, as well as familiar with a range of <a target="_blank" href="https://basementcrowd.com/2018/11/28/scala-the-aux-pattern-path-dependent-types/" >functional programming techniques available</a>.<br/><br/>
+   <strong>Java</strong>: I am experienced in a variety of Java API’s and frameworks. I have worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others. <br/><br/>
+   <strong>Groovy</strong> I have used Groovy as a language in production for ~4 years and I am familiar with many of the languages features (such as writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>) and quirks (such as <a target="_blank" href="https://dzone.com/articles/groovy-retrospective-an-addendum-memory-usage-perm">memory leak issues</a>). <br/><br/>
+   <strong>Cloud platforms</strong>: I have primarily used AWS for running production apps on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3, Cogito, <a target="_blank" href="http://automateddeveloper.blogspot.com/2018/05/serverless-with-aws-lambda-scala.html">Lambda</a> and its more recent <a target="_blank" href="http://automateddeveloper.blogspot.com/2018/10/machine-learning-with-aws-scala.html">Machine Learning capabilities</a>.<br/><br/>
+   <strong>Web Development</strong>: Through building web applications, I have also worked with various client side technology, having used jQuery, Bootstrap, LESS, SASS, Backbone/Underscore/Require. More recently I have written React applications (primarily using the Create React App framework, and extending them)<br/><br/>
+   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar, Jenkins, TeamCity, etc. I have experience with an array of testing tools and technologies.<br/><br/>
+   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/AWS. <br/><br/>
+   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="http://projects.spring.io/spring-social/">http://projects.spring.io/spring-social/</a>. <br/><br/>
+   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="http://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
